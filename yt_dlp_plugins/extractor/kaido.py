@@ -10,7 +10,7 @@ from yt_dlp.extractor.common import InfoExtractor
 from yt_dlp.utils import ExtractorError, clean_html, get_element_by_class
 from megacloud import Megacloud
 
-class HiAnimeIE(InfoExtractor):
+class KaidoIE(InfoExtractor):
     _VALID_URL = r'https?://kaido\.(?:to|is|nz|bz|pe|cx|gs|do)/(?:watch/)?(?P<slug>[^/?]+)(?:-\d+)?-(?P<playlist_id>\d+)(?:\?ep=(?P<episode_id>\d+))?$'
 
     _TESTS = [
